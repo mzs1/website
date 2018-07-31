@@ -13,13 +13,14 @@ html {
   direction: rtl;
 }
 
-a{
-  color: #4caf50;
+a {
+    color: blue;
 }
 
-nav{
-  background-color: #e1e1e1;
-  padding: 10px; text-align: center;
+nav {
+    background-color: blue;
+    padding: 10px;
+    text-align: center;
 }
 
 nav ul{
@@ -31,9 +32,9 @@ nav ul li{
   margin-left: 10px;
 }
 
-nav ul li a{
-  color: #666;
-}
+    nav ul li a {
+        color: white;
+    }
 
 .container{
   padding-right: 20px;
@@ -87,15 +88,18 @@ h2, strong, h3{
   display: inline-block;
 }
 
-.actions ul li a{
-  padding: 10px; text-decoration: none; color: #fff;
-  background-color: #32c24d; border-radius: 4px;
-  font-family: 'Dubai-Bold', sans-serif;
-}
+    .actions ul li a {
+        padding: 10px;
+        text-decoration: none;
+        color: #fff;
+        background-color: #2016A8;
+        border-radius: 4px;
+        font-family: 'Dubai-Bold', sans-serif;
+    }
 
 .disabled, .form-buttons input[type="submit"]:disabled, .submit:disabled{
   padding: 10px; text-decoration: none; color: #ccc;
-  border-radius: 4px; border: 1px solid #ccc; background-color: #fff;
+  border-radius: 4px; border: 1px solid #ccc; background-color: #000000;
   font-family: 'Dubai-Bold', sans-serif; cursor: default;
 }
 
@@ -159,7 +163,7 @@ h2, strong, h3{
 
 .form-buttons .secondary{
   padding: 10px; text-decoration: none; color: #666;
-  border: 0; background-color: #e1e1e1; cursor: pointer;
+  border: 0; background-color: blue; cursor: pointer;
   border-radius: 4px; font-family: 'Dubai-Bold', sans-serif;
 }
 
@@ -181,16 +185,17 @@ h2, strong, h3{
   /*width: 100%;*/
 }
 
-.error{
-  background-color: #ffeb3b;
+.error {
+    background-color: #CC9601;
 }
 
-.tracks{
-  margin-top: 10px;
-  margin-right: -20px;
-  margin-left: -20px;
-  padding: 20px; /*color: #fff;*/
-  background-color: #f3f3f3;
+.tracks {
+    margin-top: 10px;
+    margin-right: -20px;
+    margin-left: -20px;
+    padding: 20px;
+    color: black;
+    background-color: #F36801;
 }
 
 .tracks h2, .agenda h2{
@@ -204,12 +209,15 @@ h2, strong, h3{
   width: 100%;
 }
 
-.track .badge{
-  background-color: #90caf9;
-  color: #fff; padding-right: 6px;
-  padding-left: 6px; font-size: 14px;
-  border-radius: 6px; margin-left: 6px;
-}
+    .track .badge {
+        background-color: #90caf9;
+        color: black; 
+        padding-right: 6px;
+        padding-left: 6px;
+        font-size: 14px;
+        border-radius: 6px;
+        margin-left: 6px;
+    }
 
 .applicant{
   /*margin-bottom: 10px;*/
@@ -224,9 +232,10 @@ h2, strong, h3{
   margin-left: 10px;
 }
 
-.agenda table{
-  border-collapse: collapse;
-  width: 100%;
+.agenda table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: #A235C6;
 }
 
 .agenda table td, .agenda table th{
@@ -252,7 +261,7 @@ h2, strong, h3{
 
 .must{
   background-color: #ffeb3b; padding: 20px;
-  margin-bottom: 20px; /*color: #fff;*/
+  margin-bottom: 20px; color:orangered;
 }
 
 .preview-container .subject{
